@@ -19,11 +19,11 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>New York</h1>
+            <h1 id="city"></h1>
 
             <ul>
               <li>Firday 05:00</li>
-              <li>Clear</li>
+              <li id="despricption"></li>
             </ul>
           </div>
           <div class="row">
@@ -35,16 +35,16 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>12</strong><span class="units">°C | °F</span>
+                  <strong id="temperature"></strong
+                  ><span class="units">°C | °F</span>
                 </div>
               </div>
             </div>
 
             <div class="col-md-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 2 km/h</li>
+                <li>Humidity: <span id="humidity"></span>></li>
+                <li>Wind: 2<span id="wind"></span></li>
               </ul>
             </div>
           </div>
